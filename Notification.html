@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Alert</title>
+    <script src="Script.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+            background-color: #fcf9f9;
+        }
+        .image{
+            text-align: center;
+        }
+        .textcontent p{
+            /* width: 300px; */
+            text-align: center;
+            color: #797875;
+        }
+        #button{
+            text-align: center;
+            padding-top: 75px;
+        }
+        #button button{
+            background-color: #2065c4;
+            color: #eae7e0;
+            font-size: 20px;
+            height: 40px;
+            width: 400px;
+            cursor: pointer;
+            border: 1px solid #2065c4;
+            border-radius: 5px;
+            text-align: center;
+        }
+        #button button:active{
+            background: #406061;
+            color: black;
+        }
+        @media only screen and(max-width: 1140px){
+            .image img{
+                margin-left: 10px;
+            }
+           .textcontent{
+                margin-left: -100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="notify">
+        <div class="image">
+            <img src="./Images/BlindPerson.png" alt="BlindPersonNotificationDEmo">
+        </div>
+        <div class="textcontent">
+            <p>You can see here the notificatio from
+            your peron after clicking this button</p>
+            <p>Let's get check your message box</p>
+        </div>
+        <div id="button">
+            <button onclick="clickfunction()">See alert history</button>
+        </div> 
+    </div>
+ 
+</body>
+</html>

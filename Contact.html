@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #contactdetails{
+            position: static;
+            text-align: center;
+        }
+        
+        .paras{
+            font-weight: 40;
+            font-size: 30px;
+            margin-top: 50px;
+            font-family: sans-serif;
+        }
+        .firsthr{
+            width: 300px;
+            margin-left: 600px;
+        }
+        .details p{
+            font-size: 25px;
+        }
+        .favicon{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .favicon i{
+            margin-top: 7px;
+        }
+        @media only screen and(max-width: 1140px){
+           .contactdetails{
+            margin-left: 0px;
+           } 
+           .firsthr{
+            margin-left: 0px;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div id="contactdetails">
+        <h2 class="paras">Let's stay in touch</h2>
+        <img src="./Images/Aimage.png" alt="@image">
+        <div class="firsthr">
+            <hr>
+        </div>
+        <div class="details">
+            <p >Contact@admin.phone</p>
+                <span class="favicon"><i class="fa-solid fa-address-card"></i> 
+                    <a href="tel:9807099754"><p>9817356549</p></a>
+                </span>
+            <p>Itahari-5, Sunsari</p>
+            <p>Nepal</p>
+        </div>
+    </div>
+</body>
+</html>
